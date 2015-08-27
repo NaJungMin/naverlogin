@@ -14,10 +14,12 @@
 <div id="naver_id_login"></div>
 <script type="text/javascript">
 	/* var naver_id_login = new naver_id_login("등록한 ClientID 값", "등록한 Callback URL 값"); */
-	var naver_id_login = new naver_id_login("__AmId26Vs2lK3nKqZuG", "http://localhost:8088/");
+	var naver_id_login = new naver_id_login("__AmId26Vs2lK3nKqZuG", 'http://www.naver.com');
 	naver_id_login.setButton("white", 2,40);
-	naver_id_login.setDomain(".service.com");
-	naver_id_login.setState("abcdefghijkmnopqrst");
+	/* naver_id_login.setDomain(".service.com"); */
+	naver_id_login.setDomain("http://localhost:8088/");
+	/* naver_id_login.setState("abcdefghijkmnopqrst"); */
+	naver_id_login.setState("abcdefghijklmnopqrstuvwxyz");
 	naver_id_login.setPopup();
 	naver_id_login.init_naver_id_login();
 </script>

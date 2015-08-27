@@ -6,8 +6,8 @@
 	<settings useStatementNamespaces="true" />
 
  	<!-- sql mapping files -->
-<!-- 	<sqlMap resource="user.xml"/>
-	
+ 	<!-- <sqlMap resource="user.xml"/> -->
+<!--	
 	<sqlMap resource="board.xml"/>
 	
 	<sqlMap resource="guestbook.xml"/>
